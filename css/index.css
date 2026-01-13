@@ -1,6 +1,3 @@
-/* ===============================
-   PROFILE
-================================ */
 .profile {
     display: grid;
     grid-template-columns: 280px 1fr;
@@ -13,7 +10,6 @@
     margin-bottom: 40px;
 }
 
-/* ẢNH ĐẠI DIỆN */
 .profile img {
     width: 100%;
     border-radius: 25px;
@@ -24,7 +20,7 @@
     transform: scale(1.04);
 }
 
-/* NỘI DUNG */
+
 .profile .content h1 {
     color: #fb6f92;
     margin-bottom: 15px;
@@ -36,9 +32,7 @@
     color: #333;
 }
 
-/* ===============================
-   SOCIAL ICONS
-================================ */
+
 .social {
     margin-top: 15px;
 }
@@ -55,9 +49,7 @@
     transform: scale(1.2);
 }
 
-/* ===============================
-   VIDEO
-================================ */
+
 .video {
     margin: 40px 0;
     text-align: center;
@@ -70,9 +62,7 @@
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
-/* ===============================
-   MUSIC
-================================ */
+
 .music {
     margin: 40px auto;
     padding: 30px;
@@ -80,7 +70,6 @@
     border-radius: 30px;
     text-align: center;
 
-    /* căn giữa toàn bộ khối */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,14 +78,12 @@
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
 }
 
-/* TIÊU ĐỀ */
 .music h3 {
     color: #fb6f92;
     font-size: 24px;
     letter-spacing: 1px;
 }
 
-/* ẢNH */
 .music img {
     width: 260px;
     max-width: 90%;
@@ -109,7 +96,6 @@
     transform: scale(1.05);
 }
 
-/* AUDIO – nằm dưới ảnh */
 .music audio {
     width: 320px;
     max-width: 90%;

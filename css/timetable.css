@@ -3,7 +3,6 @@
     margin-bottom: 20px;
 }
 
-/* BẢNG */
 .timetable {
     width: 100%;
     border-collapse: collapse;
@@ -29,20 +28,19 @@
     background: #fff0f5;
 }
 
-/* Ô MÀU XANH */
 .green {
     background: #ffc2d1;
     font-weight: bold;
 }
 
-/* DANH SÁCH */
 .list {
     background: white;
     padding: 25px;
     border-radius: 20px;
 }
 
-.list ol, .list ul {
+.list ol,
+.list ul {
     margin-left: 25px;
     margin-bottom: 15px;
 }
