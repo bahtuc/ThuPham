@@ -1,0 +1,47 @@
+.profile {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 30px;
+    align-items: center;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.profile img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.profile .content p {
+    margin-bottom: 8px;
+}
+
+/* ICON MXH */
+.social {
+    margin-top: 15px;
+}
+
+.social a {
+    font-size: 26px;
+    margin-right: 15px;
+    color: #ff8fab;
+    transition: 0.3s;
+}
+
+.social a:hover {
+    color: #fb6f92;
+}
+
+/* VIDEO */
+.video {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.video video {
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}

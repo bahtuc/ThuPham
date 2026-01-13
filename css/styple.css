@@ -1,0 +1,51 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* BODY */
+body {
+    background: #ffe5ec;
+}
+
+/* CONTAINER CHUNG */
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* THANH NÚT CHUYỂN TRANG */
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.button a button {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 25px;
+    background: #ffb3c6;
+    color: #333;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button a button:hover {
+    background: #ff8fab;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* TIÊU ĐỀ CHUNG */
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,48 @@
+.date {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* BẢNG */
+.timetable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.timetable th,
+.timetable td {
+    border: 1px solid #ffd6e0;
+    padding: 10px;
+    text-align: center;
+}
+
+.timetable th {
+    background: #ffb3c6;
+    color: #333;
+}
+
+.timetable tr:nth-child(even) {
+    background: #fff0f5;
+}
+
+/* Ô MÀU XANH */
+.green {
+    background: #ffc2d1;
+    font-weight: bold;
+}
+
+/* DANH SÁCH */
+.list {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.list ol, .list ul {
+    margin-left: 25px;
+    margin-bottom: 15px;
+}

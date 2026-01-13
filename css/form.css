@@ -1,0 +1,53 @@
+.form-box {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.form-box h1, 
+.form-box h2 {
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 15px;
+}
+
+.row label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.row input[type="text"],
+.row input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+/* NÚT */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttons button {
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    background: #ff8fab;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttons button:hover {
+    background: #fb6f92;
+}
